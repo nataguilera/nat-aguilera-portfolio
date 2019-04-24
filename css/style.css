@@ -56,16 +56,20 @@ header h1 a{
 
 /* BIO */
 .bio{ 
-    padding:160px 141px 50px 141px;
+    width:84%;
+    padding:190px 0px 75px 135px;
 }
+
 .bio p{
     font-size:2.5em;
+    line-height: 1.2em;
 }
 
 /* HOME PROJECTS */
 
 .projects{
-    padding: 100px 118px 0px 118px;
+    width:90%;
+    padding: 100px 18px 0px 118px;
 }
 .projects h2{
     font-size: 3em;
@@ -73,8 +77,10 @@ header h1 a{
     font-weight: bold;
 }
 .home-first-project{
+    width:90%;
     display: flex;
     padding: 0px 23px 100px 23px;
+    flex-wrap: wrap;
 }
 .home-first-project h3{
     font-size: 4em;
@@ -85,9 +91,13 @@ header h1 a{
 }
 .home-project-text{
     padding: 0px 50px 0px 50px;
+    width:50%;
 }
 .home-project-text p{
     padding:25px 0 0 25px;
+}
+.home-project-image{
+    width:40%;
 }
 
 
@@ -100,6 +110,10 @@ PROJECT PAGE
 
 .project a, .project h1, .project h2, .project h3, .first-project-title p{
     color: rgb(0, 158, 72);
+}
+
+.project a:hover{
+    color: #FFF000; 
 }
 .first-project-title{
     padding:70px 141px 80px 200px;
@@ -142,6 +156,10 @@ ABOUT
     color: rgb(0, 158, 72);
 }
 
+.about a:hover{
+    color: #FFF000; 
+}
+
 .about-text p{
     color: #444444;
 }
@@ -177,4 +195,14 @@ ABOUT
         font-size:20px;
 
     }
+
+
+    .home-first-project{
+        width:90%;
+        display: flex;
+        padding: 0px 23px 100px 23px;
+        flex-wrap: wrap-reverse;
+    }
   }
+
+  /* importante poenr widths a las cosas para que sean responsive*/
