@@ -8,7 +8,22 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".img-1").hover(function(){
+                $(this).attr("src", "images/manko-color.png");
+            }, function(){
+                $(this).attr("src", "images/duotonemanko.png");
+            });
+
+            $(".img-2").hover(function(){
+                $(this).attr("src", "images/manko-color.png");
+            }, function(){
+                $(this).attr("src", "images/duotonemanko.png");
+            });
+        });
+    </script>
 </head>
 <body>
    <div class="container home">
@@ -28,7 +43,7 @@
                 <h2>Projects</h2>
                 <div class="home-first-project">
                     <div class="home-project-image">
-                        <img width="" src="images/duotonemanko.png"/>
+                        <img width="" src="images/duotonemanko.png" class="img-1"/>
                     </div>
                     <div class="home-project-text">
                         <h3><a href="manko.html">Manko</a></h3>
@@ -36,21 +51,20 @@
                     </div>
                 </div>
                 <div class="home-first-project">
-                        <div class="home-project-image">
-                                <img width="" src="images/duotonemanko.png"/>
-                            </div>
                         <div class="home-project-text">
-                                <h3><a href="manko.html">Recommendathor</a></h3>
-                                <p>Girl! Enjoy more your sex life by learning through a game!</p>
-                            </div>
-                       
+                            <h3><a href="manko.html">Recommendathor</a></h3>
+                            <p>Girl! Enjoy more your sex life by learning through a game!</p>
+                        </div>
+                        <div class="home-project-image">
+                            <img width="" src="images/duotonemanko.png" class="img-2"/>
+                        </div>                       
                     </div>
             </section> 
 
         </main>
 
     </div>
-    <footer>
+    <footer class="footer-home">
         <p>Natalia Aguilera 2019</p>
     </footer>
 </body>
