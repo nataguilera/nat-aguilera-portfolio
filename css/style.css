@@ -32,6 +32,7 @@ HOME
 
 
 .home{
+    width:100%;
     background-color: rgb(0, 158, 72);
 }
 .footer-home{
@@ -52,17 +53,20 @@ header{
 header h1 a{ 
     text-decoration: none;
 }
+#about{
+    padding:1.2em;
+}
 
 
 /* BIO */
 .bio{ 
-    width:84%;
-    padding:190px 0px 75px 135px;
+    width:82%;
+    padding:240px 0px 145px 135px;
 }
 
 .bio p{
-    font-size:2.5em;
-    line-height: 1.2em;
+    font-size:2.52em;
+    line-height: 1.22em;
 }
 
 /* HOME PROJECTS */
@@ -183,6 +187,9 @@ ABOUT
 .about-text p{
     font-size:1.4em;
     line-height: 1.4em;
+}
+.about-text a{
+    text-decoration: none;
 }
 
 /* MEDIA QUERIES */
