@@ -23,6 +23,16 @@
             }, function(){
                 $(this).attr("src", "images/duotonemanko.png");
             });
+
+            $(".light").css("display", "none");
+            $(".jack").mouseenter(function(){
+               $(".light").css("display", "block");
+
+            })
+            .mouseleave(function(){
+                $(".light").css("display", "none");            
+                });
+
         });
     </script>
 </head>
@@ -38,10 +48,11 @@
         <main class="content">
             <section class="bio">
                 <p>Hello!! I’m Nat, a UX/UI designer currently based in Barcelona. 
-                My goal is to make people happy through design and by sharing pictures of my flat-cat-mate (ligh of my life) on 
-                <a href="https://www.instagram.com/wildnessisourtreasure/" target="blank">Instagram</a>.</p><br>
+                My goal is to make people happy through design and by sharing pictures of my flat-cat-mate <span class="jack">(ligh of my life)</span> on 
+                <a href="https://www.instagram.com/p/Bv4vL8ghqrh/" target="blank">Instagram</a>.</p><br>
                 <p>I'm currently looking for new job opportunities. <a href="mailto:nat.aguilera.garcia@gmail.com">Hit me up</a> Lorem ipsum lorem iosum lorem ipsum!
                 </p>
+                <img src="images/lightofmylife.jpeg" class="light"/>
             </section>  
             <section class="projects" id="anchor-projects">
                 <h2>Projects</h2>
