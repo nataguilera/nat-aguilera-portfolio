@@ -172,18 +172,17 @@ ABOUT
     color: #FFF000; 
 }
 
-.about-text p{
-    color: #444444;
-}
-
 .about-main{
     display:flex;
     padding:100px 141px 50px 141px;
 }
-.about-image{
-    padding-top:50px;
-}
 
+.about-image img{
+width:120%;
+}
+.about-image{
+    padding-top:60px;
+}
 .about-text{
     padding:0px 0px 0px 100px;
 }
@@ -193,12 +192,18 @@ ABOUT
     padding-bottom:20px;
 }
 .about-text p{
-    font-size:1.4em;
-    line-height: 1.4em;
+    font-size:1.20em;
+    line-height: 1.80em;
+    color: #444444;
+    padding-bottom:20px;
 }
 .about-text a{
     text-decoration: none;
 }
+.green{
+    color:rgb(0, 158, 72);
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 600px) {
