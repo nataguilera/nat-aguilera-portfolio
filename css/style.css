@@ -4,7 +4,7 @@
     padding:0px;
 }
 body{
-    background: #E2FDEE;
+    background: #ffffff;
     
     font-family: "Karla";
 }
@@ -53,7 +53,7 @@ header{
 header h1 a{ 
     text-decoration: none;
 }
-.about{
+.about-nav{
     padding:1.2em;
 }
 
