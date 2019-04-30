@@ -206,6 +206,14 @@ width:120%;
 
 
 /* MEDIA QUERIES */
+@media (min-width: 600px) {
+    .home-first-project{
+        width:90%;
+        display: flex;
+        padding: 0px 23px 100px 23px;
+        flex-wrap: wrap-reverse;
+    }
+  }
 @media (max-width: 600px) {
     .bio{
       font-size: 10px;
