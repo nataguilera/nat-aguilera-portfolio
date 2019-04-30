@@ -203,7 +203,15 @@ width:120%;
 .green{
     color:rgb(0, 158, 72);
 }
-
+.button-latest-project a{
+    border:2px solid rgb(0, 158, 72);
+    display: inline-block;
+    padding:10px;
+}
+.button-latest-project a:hover{
+    border:2px solid #FFF000;
+    transform:translateX(3px) translateY(3px);
+}
 
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
