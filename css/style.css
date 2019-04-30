@@ -5,7 +5,6 @@
 }
 body{
     background: #ffffff;
-    
     font-family: "Karla";
 }
 
@@ -22,6 +21,9 @@ a:hover{
 }
 footer p{
 color:rgb(0, 158, 72);
+}
+footer{
+    background:blue;
 }
 
 /*////////// 
@@ -53,7 +55,7 @@ header{
 header h1 a{ 
     text-decoration: none;
 }
-.about-nav{
+.project-nav{
     padding:1.2em;
 }
 
