@@ -53,7 +53,7 @@ header{
 header h1 a{ 
     text-decoration: none;
 }
-#about{
+.about{
     padding:1.2em;
 }
 
