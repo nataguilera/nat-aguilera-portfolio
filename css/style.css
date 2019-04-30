@@ -1,8 +1,8 @@
 /*General*/
-*{
+/**{
     margin:0px;
     padding:0px;
-}
+}*/
 body{
     background: #ffffff;
     font-family: "Karla";
@@ -34,7 +34,7 @@ HOME
 
 
 .home{
-    /*width:100%;*/
+    width:100%;
     background-color: rgb(0, 158, 72);
 }
 .footer-home{
@@ -233,10 +233,8 @@ width:120%;
         font-size:20px;
 
     }
-
-
     .home-first-project{
-        width:90%;
+        width:100%;
         display: flex;
         padding: 0px 23px 100px 23px;
         flex-wrap: wrap-reverse;
