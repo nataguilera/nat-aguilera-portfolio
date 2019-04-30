@@ -93,7 +93,7 @@ header h1 a{
     display: flex;
     padding: 0px 23px 100px 23px;
 }
-.home-first-project h3{
+.home-project-text h3{
     font-size: 4em;
     font-weight: bold;
 }
@@ -214,14 +214,17 @@ width:120%;
 
 /* MEDIA QUERIES */
 
-@media (max-width: 600px) {
+@media (max-width: 600px){
     .bio{
       font-size: 10px;
-      padding: 40px;
+      padding: 70px 0px 70px 35px;
     }
     header h1 a{ 
         font-size:20px;
 
+    }
+    .projects{
+        padding: 30px 0px 30px 35px;
     }
     .home-first-project{
         flex-direction: column-reverse;
@@ -231,13 +234,19 @@ width:120%;
         padding: 0;
         padding-bottom: 20px;
     }
-    .home-first-project h3{
-        font-size: 1em;
+    .home-project-text h3{
+        font-size: 1.4em;
         font-weight: bold;
     }
-    .home-project-image {
+    .home-project-text p{
+        font-size: 1em;
+        font-weight: bold;
+        line-height: 1.1em;
+    }
+    .home-project-image{
         width: auto;
     }
+
   }
 
   /* importante poenr widths a las cosas para que sean responsive*/
