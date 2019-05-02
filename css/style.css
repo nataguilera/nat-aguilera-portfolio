@@ -197,6 +197,10 @@ PROJECT PAGE
 .mid-fi img{
     width:50%;
 }
+.mid-fi p{
+    padding-bottom:50px;
+}
+
 .ui-design img{
     width:50%;
 }
@@ -205,6 +209,9 @@ PROJECT PAGE
     text-align: center;
     padding-top:10px;
     padding-bottom:20px;
+}
+.piefoto{
+    margin-top:20px;
 }
 
 /*////////// 
