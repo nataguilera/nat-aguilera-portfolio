@@ -1,8 +1,5 @@
 /*General*/
-/**{
-    margin:0px;
-    padding:0px;
-}*/
+
 body{
     background: #ffffff;
     font-family: "Karla";
@@ -71,8 +68,8 @@ header h1 a{
 .light{
     position: relative;
     z-index: 10;
-    left: 500px;
-    top: -200px;
+    left: 600px;
+    top: -300px;
 }
 
 
