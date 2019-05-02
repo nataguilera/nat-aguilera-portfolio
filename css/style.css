@@ -200,7 +200,11 @@ PROJECT PAGE
 .ui-design img{
     width:50%;
 }
-
+.piefoto p{
+    font-size:.9em; 
+    text-align: center;
+    padding-top:10px;
+}
 
 /*////////// 
 
