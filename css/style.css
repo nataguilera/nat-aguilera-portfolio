@@ -135,17 +135,20 @@ PROJECT PAGE
     padding:25px 0 0 25px;
 }
 
-.first-project-image{
-    padding:0px 0px 0px 141px;
-}
 .first-project-image img{
     width:65%;
     height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
 }
 
 .project-text{
     width:70%;
-    padding:50px 121px 80px 180px;
+    padding:50px 0px 80px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
 }
 .project-text p{
     font-size: 1.1em;
@@ -165,9 +168,13 @@ PROJECT PAGE
 .project-text p{
     color: #444444;
 }
+.project-text img{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
 .quotes{
     padding:10px 60px 10px 60px;
-
 }
 
 .cursiva{
