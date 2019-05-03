@@ -16,8 +16,12 @@ a:visited{
 a:hover{
     color: #FFF000; 
 }
+footer{
+    padding:20px 0px;
+}
 footer p{
 color:rgb(0, 158, 72);
+text-align: center;
 }
 
 /*////////// 
@@ -174,26 +178,41 @@ PROJECT PAGE
     display:block;
 }
 .quotes{
-    padding:10px 60px 10px 60px;
+    width:70%;
+    margin: auto;
 }
-
+.quotes p{
+    font-weight: bold;
+    font-size:1.25em;
+}
 .cursiva{
     font-style: italic;
     font-size:1.2em;
     }
 
-.problem-statement p{
-    font-size:1.3em;
-    font-weight: bold;
+#problem-text {
+    width:60%;
+    margin:auto;
+    padding:60px 0px;
 }
-
-.problem-statement {
-    padding:10px 60px 10px 60px;
+#problem-text p{
+    font-size:1.7em;
+    line-height: 1.5em;
+    font-weight: bold;
 }
 .user-persona img{
     width:55%;
     height: auto;
 }
+.features{
+    padding:20px 0px;
+    width:80%;
+    margin:auto;
+}
+.features p{
+    line-height: 1.8em;
+}
+
 .mid-fi img{
     width:50%;
 }
@@ -203,6 +222,10 @@ PROJECT PAGE
 
 .ui-design img{
     width:50%;
+}
+.ui-represent{
+    margin:auto;
+    padding:20px 0px;
 }
 .piefoto p{
     font-size:.9em; 
@@ -222,8 +245,10 @@ ABOUT
 .about a, .about h1, .about h2, .about h3{
     color: rgb(0, 158, 72);
 }
-
-.about a:hover{
+.about-text a{
+    text-decoration:underline;
+}
+.about-text a:hover{
     color: #FFF000; 
 }
 
@@ -252,19 +277,19 @@ ABOUT
     color: #444444;
     padding-bottom:20px;
 }
-.about-text a{
-    text-decoration: none;
-}
 .green{
     color:rgb(0, 158, 72);
+    font-size: 1.3em;
 }
-.button-latest-project a{
-    border:2px solid rgb(0, 158, 72);
-    display: inline-block;
-    padding:10px;
+
+
+.fab{
+    font-size: 2em;
+    padding:5px;
+   
 }
-.button-latest-project a:hover{
-    border:2px solid #FFF000;
+.fab:hover{
+
     transform:translateX(3px) translateY(3px);
 }
 
@@ -300,7 +325,8 @@ ABOUT
         line-height: 1.1em;
     }
     .home-project-image{
-        width: auto;
+       width: auto;
+       max-width:300px;
     }
 
   }
