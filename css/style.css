@@ -227,6 +227,10 @@ PROJECT PAGE
     margin:auto;
     padding:20px 0px;
 }
+.ui-represent p{
+    text-align: center;
+}
+
 .piefoto p{
     font-size:.9em; 
     text-align: center;
@@ -237,6 +241,9 @@ PROJECT PAGE
     margin-top:20px;
 }
 
+iframe{
+    margin:auto;
+}
 /*////////// 
 
 ABOUT 
@@ -332,6 +339,22 @@ ABOUT
     .home-project-image{
        width: auto;
        max-width:300px;
+    }
+
+    .about-main{
+        display:flex;
+        flex-direction: column;
+        width:90%;
+        padding:10px;
+    }
+    .about-text{
+        padding:10px;
+    }
+    .about-image{
+        width:70%;
+    }
+    .about-text p{
+        font-size:1em;
     }
 
   }
