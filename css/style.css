@@ -317,10 +317,14 @@ ABOUT
 
     }
     .projects{
-        padding: 30px 0px 30px 35px;
+        padding: 30px 0px 30px 10px;
+    }
+    .projects h2{
+        text-align: center;
     }
     .home-first-project{
         flex-direction: column-reverse;
+        padding: 0px 23px 40px 23px;
     }
     .home-project-text {
         width: auto;
@@ -332,6 +336,7 @@ ABOUT
         font-weight: bold;
     }
     .home-project-text p{
+        padding:15px 0px;
         font-size: 1em;
         font-weight: bold;
         line-height: 1.1em;
@@ -340,6 +345,9 @@ ABOUT
        width: auto;
        max-width:300px;
     }
+
+
+    /* project responisve*/
     .content-project{
         width:100%; 
     }
@@ -353,7 +361,7 @@ ABOUT
         text-align:center;
         
     }
-
+/* about responsive*/
     .about-main{
         display:flex;
         flex-direction: column;
@@ -364,12 +372,21 @@ ABOUT
         padding:10px;
     }
     .about-image{
-        width:70%;
+        width:100%;
+        padding:30px 8px;
+    }
+    .about-image img{
+        margin:auto;
     }
     .about-text p{
         font-size:1em;
     }
 
+/*footer*/
+
+    footer{
+        padding:0px 0px 20px 0px;
+    }
   }
 
   /* importante poenr widths a las cosas para que sean responsive*/
