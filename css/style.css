@@ -178,17 +178,17 @@ PROJECT PAGE
     display:block;
 }
 .quotes{
-    width:70%;
+    width:60%;
     margin: auto;
+    padding-top:30px;
 }
 .quotes p{
     font-weight: bold;
-    font-size:1.25em;
-}
-.cursiva{
+    font-size:1.39em;
+    line-height: 1.4em;
     font-style: italic;
-    font-size:1.2em;
-    }
+}
+
 
 #problem-text {
     width:60%;
@@ -242,6 +242,7 @@ PROJECT PAGE
 ABOUT 
 
 /////////////*/
+
 .about a, .about h1, .about h2, .about h3{
     color: rgb(0, 158, 72);
 }
@@ -258,11 +259,10 @@ ABOUT
 }
 
 .about-image{
-    width:85%;
-}
-.about-image{
+    width:120%;
     padding-top:60px;
 }
+
 .about-text{
     padding:0px 0px 0px 100px;
 }
@@ -282,16 +282,21 @@ ABOUT
     font-size: 1.3em;
 }
 
-
 .fab{
     font-size: 2em;
     padding:5px;
    
 }
-.fab:hover{
 
+.fas{
+    font-size: 2em;
+    padding:5px;
+}
+.fab:hover, .fas:hover{
     transform:translateX(3px) translateY(3px);
 }
+
+
 
 /* MEDIA QUERIES */
 
