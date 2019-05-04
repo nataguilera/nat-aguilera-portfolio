@@ -340,6 +340,19 @@ ABOUT
        width: auto;
        max-width:300px;
     }
+    .content-project{
+        width:100%; 
+    }
+    .project-text{
+        width:100%;
+    }
+    .first-project-title {
+        padding:50px 10px;
+    }
+    .first-project-title h1, .first-project-title p{
+        text-align:center;
+        
+    }
 
     .about-main{
         display:flex;
