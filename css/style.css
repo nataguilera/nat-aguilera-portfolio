@@ -244,6 +244,33 @@ PROJECT PAGE
 iframe{
     margin:auto;
 }
+/*//////////
+MusicMates
+///////////*/
+
+.under-construction{
+    margin:auto;
+    width:724px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.under-construction p{
+    color: rgb(0, 158, 72);
+    padding:10px 0px 10px 0px;
+    display:block;
+    text-align: center;
+    font-size: 1.7em;
+}
+.under-construction img{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /*////////// 
 
 ABOUT 
